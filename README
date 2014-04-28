@@ -1,0 +1,34 @@
+===== Green =====
+
+Green est un programme permettant la modélisation d'obstacles grâce à des ultrasons.
+Ce programme a été réalisé dans le cadre d'un projet de terminale de sciences de l'ingénieur.
+
+----- Auteur -----
+
+Benoît Vey <praetonus@gmail.com>
+L'équipe du projet était également constituée de Yafeng Ren et de Stéphane Viramouttou.
+
+----- Licence -----
+
+Green est distribué sous les termes de la GNU General Public License Version 3.
+La copie, la modification et la redistribution de ce programme sont autorisées sous certaines conditions.
+Voir COPYING pour plus de détails.
+
+----- Matériel requis -----
+
+Pour utiliser Green, vous aurez besoin d'une carte Arduino, ainsi que d'un capteur ultrasonore et d'un moteur pas à pas compatibles avec celle-ci.
+Voir <http://arduino.cc> pour plus d'informations sur l'environnement Arduino.
+
+----- Installation -----
+
+Sont nécessaires :
+-Un compilateur C++ supportant le standard C++11
+-Boost <http://www.boost.org>
+-CMake <http://www.cmake.org>
+
+Lancez CMake pour compiler et installer Green.
+Voir <http://www.cmake.org/cmake/help/help.html> pour plus d'informations sur l'utilisation de CMake.
+
+Le programme à destination de la carte Arduino se trouve dans le dossier arduino.
+Il utilise la bibliothèque Ultrasonics. <http://playground.arduino.cc/Code/SR04>
+Pour compiler et transférer ce programme, utilisez le compilateur fourni avec l'environnement Arduino.
